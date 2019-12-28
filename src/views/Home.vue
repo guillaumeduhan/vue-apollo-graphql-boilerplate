@@ -4,7 +4,7 @@
     img(src='https://myhappyagency.com/blog/wp-content/uploads/2019/12/vue-graphql-apollo.png')
     h1 {{ pjson.name }}
     p {{ pjson.description }}
-    a(href="https://github.com/guillaumeduhan/vue-bootstrap-boilerplate", target="_blank") Github
+    a(href="https://github.com/guillaumeduhan/vue-apollo-graphql-boilerplate", target="_blank") Github
 </template>
 
 <script>
