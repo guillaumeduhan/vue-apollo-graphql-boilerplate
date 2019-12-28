@@ -48,6 +48,7 @@ We use [SemVer](http://semver.org/) for versioning.
 ## Authors ✨
 
 - **guillaumeduhan** - _Initial work_ - [Github](https://github.com/guillaumeduhan)
+- **rcoundon** - _Contributor_ - [Github](https://github.com/rcoundon)
 
 ## License
 
