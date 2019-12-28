@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import gql from 'graphql-tag'
 import pjson from '../../package.json'
 
 export default {
@@ -17,6 +18,30 @@ export default {
       pjson,
     }
   },
+  apollo: {
+    // Simple query that will update the 'hello' vue property
+    hello: gql`query {
+      hello
+    }`,
+  },
+  methods: {
+    async addTag() {
+      // Call to the graphql mutation
+      const result = await this.$apollo.mutate({
+        // Query
+        mutation: gql`mutation ($label: String!) {
+          addTag(label: $label) {
+            id
+            label
+          }
+        }`,
+        // Parameters
+        variables: {
+          label: this.newTag,
+        },
+      })
+    }
+  }
 }
 </script>
 
