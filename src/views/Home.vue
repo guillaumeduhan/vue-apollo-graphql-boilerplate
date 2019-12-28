@@ -1,7 +1,7 @@
 <template lang="pug">
 #Home
   header
-    img(src='https://myhappyagency.com/blog/wp-content/uploads/2019/12/vue-graphql-apollo.png')
+    img.logo(src='https://myhappyagency.com/blog/wp-content/uploads/2019/12/vue-graphql-apollo.png')
     h1 {{ pjson.name }}
     p {{ pjson.description }}
     a(href="https://github.com/guillaumeduhan/vue-apollo-graphql-boilerplate", target="_blank") Github
@@ -47,13 +47,10 @@ export default {
 
 <style lang="scss">
 #Home {
-  .avatar {
-    img {
-      border-radius: 75px;
-      max-width: 75px;
-      margin-bottom: 15px;
-      background: #C32424;
-    }
+  .logo {
+    max-width: 400px;
+    margin: 30px 0;
+    background: #C32424;
   }
 }
 </style>
