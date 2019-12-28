@@ -1,0 +1,65 @@
+{
+  "name": "vue-apollo-graphql-boilerplate",
+  "version": "1.1.0",
+  "author": "Guillaume Duhan",
+  "contributors": [
+    "kaangokdemir",
+    "malinsdd"
+  ],
+  "description": "Vue-Cli-3, Apollo, GraphQL, Vuex, Vue-Router, Babel, ESLint, Axios, SCSS and Pug/HTML boilerplate.",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "stylelint '**/*.vue' '**/*.scss' --fix scss"
+  },
+  "dependencies": {
+    "@vue/eslint-config-airbnb": "^4.0.1",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "bootstrap-vue": "^2.0.4",
+    "core-js": "^3.1.2",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "node-sass": "^4.13.0",
+    "vue": "^2.6.10",
+    "vue-apollo": "^3.0.2",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-unit-jest": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-airbnb": "^4.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.0",
+    "stylelint": "^11.1.1",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-processor-html": "^1.0.0",
+    "vue-cli-plugin-apollo": "^0.21.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "jest": {
+    "preset": "@vue/cli-plugin-unit-jest"
+  }
+}
