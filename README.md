@@ -1,6 +1,6 @@
 # Vue Apollo GraphQL Boilerplate
 
-![logo](https://myhappyagency.com/blog/wp-content/uploads/2019/12/vue-graphql-apollo.png)
+![logo](https://repository-images.githubusercontent.com/230602673/ea780980-2971-11ea-87d7-af3b6b01a02e)
 
 - Vue 2
 - Vue CLI 3
